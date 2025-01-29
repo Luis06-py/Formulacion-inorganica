@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+	<title>Para practicar</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+</head>
+<body>
+		<div class="menudiv">
+			<table class="menu">
+				<tr>
+					<td><a href="inicio">Inicio</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularoxido">Óxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidruro">Hidruro</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidroxido">Hidróxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularacido">Ácido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalbinaria">Sal binaria</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsaloxial">Sal oxisal</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalacida">Sal ácida</a>&nbsp;|&nbsp;</td>
+					<td><a href="about">Acerca de</a></td>
+				</tr>
+			</table>
+		</div>
+
+		
+	<div>
+		<h1>Generar formulaciones inorgánicas para practicar</h1>
+		<h3>Nota: Existe la posibilidad de encontrar ligeros errores ortográficos, por ejemplo "Antimoniito"</h3>
+		<h3>Tambien pueden aparecer elementos no conocidos.</h3>
+		<h2>Ácidos</h2>
+		{%for x in Ácidos%}
+		{{ x }}<br/>
+		{%endfor%}
+
+		<h2>Sales oxisales</h2>
+		{%for x in Sales%}
+		{{ x }}<br/>
+		{%endfor%}
+
+		<h2>Sales binarias</h2>
+		{%for x in SalesBin%}
+		{{ x }}<br/>
+		{%endfor%}
+
+		<h2>Óxidos</h2>
+		{%for x in Óxidos%}
+		{{ x }}<br/>
+		{%endfor%}
+
+		<h2>Hidruros</h2>
+		{%for x in Hidruros%}
+		{{ x }}<br/>
+		{%endfor%}
+
+		<h2>Hidróxidos</h2>
+		{%for x in Hidróxidos%}
+		{{ x }}<br/>
+		{%endfor%}
+	</div>
+</body>

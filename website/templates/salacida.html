@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formular una sal ácida</title>
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+
+	</head>
+	<body>
+		<div class="menudiv">
+			<table class="menu">
+				<tr>
+					<td><a href="inicio">Inicio</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularoxido">Óxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidruro">Hidruro</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidroxido">Hidróxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularacido">Ácido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalbinaria">Sal binaria</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsaloxial">Sal oxisal</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalacida">Sal ácida</a>&nbsp;|&nbsp;</td>
+					<td><a href="about">Acerca de</a></td>
+				</tr>
+			</table>
+		</div>
+
+		<h1>Formulación: formular una sal acida.</h1>
+		{% block content %}
+    <form action="salacidaformulada" method="post">
+		Bi-
+		<select name="prefijoespecial">
+			<option value="3">---</option>
+			<option value="1">Meta</option>
+			<option value="2">Piro</option>
+		</select>
+		<select name="prefijo">
+			<option value="">---</option>
+			<option value="hipo">Hipo-</option>
+			<option value="per">Per-</option>
+		</select>
+		<label for="elemento1"></label>
+        <input type="text" id="elemento" name="elemento" />
+		<select name="sufijo">
+			<option value="">---</option>
+			<option value="ito">-ito</option>
+			<option value="ato">-ato</option>
+		</select>
+		<label for="metal"> de: </label>
+        <input type="text" id="metal" name="metal" />
+        <select name="valencia">
+			<option value="">()</option>
+			<option value="1">(I)</option>
+			<option value="2">(II)</option>
+			<option value="3">(III)</option>
+			<option value="4">(IV)</option>
+		</select>
+		
+
+        <input type="submit" id="send-signup" name="signup" value="Formular" />
+    </form>
+{% endblock %}
+	</body>
+	{% if method == "POST" %}
+        <h2>{{ nombre }}: {{ fórmula }}</h2>
+		<h4>{{ all }}</h4>
+			Nota, se incluye el uno pero no debe escribirse, y las simplificaciones se muestran con "="
+		{% else %}
+		{% endif %}
+</html>

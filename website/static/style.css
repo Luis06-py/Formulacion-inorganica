@@ -1,0 +1,35 @@
+a:active {
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:link {
+    color: red
+}
+
+a:visited {
+    color: darkred
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.menu {
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial;
+}
+
+.menudiv {
+    background-color: silver;
+    border: black 2px ridge;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulación</title>
+	</head>
+	<body>
+		<div class="menudiv">
+			<table class="menu">
+				<tr>
+					<td><a href="inicio">Inicio</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularoxido">Óxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidruro">Hidruro</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidroxido">Hidróxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularacido">Ácido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalbinaria">Sal binaria</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsaloxial">Sal oxisal</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalacida">Sal ácida</a>&nbsp;|&nbsp;</td>
+					<td><a href="about">Acerca de</a></td>
+				</tr>
+			</table>
+		</div>
+
+		<h1>Formulación Inorgánica</h1>
+							
+		<p> <a href="practicar" style="color:#FF0000;">Practicar formulación inorgánica o generar ejercicios</a></p>
+		<p> <a href="tutorial" style="color:#FF0000;">Como formular y usar la página</a></p>
+
+		{% block content %}
+    <form action="formular2" method="post">
+		<label for="formula">Formular: </label>
+        <input type="text" id="fórmula" name="fórmula"/>
+        <input type="submit" id="send-signup" name="signup" value="Formular" />
+    </form>
+		{% endblock %}
+        <h2>{{ nombre }}: {{ fórmula }}</h2>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formular un hidróxido</title>
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+	</head>
+	<body>
+		<div class="menudiv">
+			<table class="menu">
+				<tr>
+					<td><a href="inicio">Inicio</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularoxido">Óxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidruro">Hidruro</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidroxido">Hidróxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularacido">Ácido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalbinaria">Sal binaria</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsaloxial">Sal oxisal</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalacida">Sal ácida</a>&nbsp;|&nbsp;</td>
+					<td><a href="about">Acerca de</a></td>
+				</tr>
+			</table>
+		</div>
+
+		<h1>Formulación: formular un hidróxido</h1>
+		{% block content %}
+    <form action="hidroxidoformulado" method="post">
+        <label for="metal">Hidróxido de: </label>
+        <input type="text" id="metal" name="metal" />
+		<select name="valencia">
+			<option value="">()</option>
+			<option value="1">(I)</option>
+			<option value="2">(II)</option>
+			<option value="3">(III)</option>
+			<option value="4">(IV)</option>
+		</select>
+        <input type="submit" id="send-signup" name="signup" value="Formular" />
+    </form>
+{% endblock %}
+
+		{% if method == "POST" %}
+        <h2>{{ nombre }}: {{ fórmula }}</h2>
+		{% else %}
+		{% endif %}
+
+		
+	</body>
+</html>

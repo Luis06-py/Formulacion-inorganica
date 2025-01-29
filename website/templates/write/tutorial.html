@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tutorial</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+    </head>
+    <body>
+        <div class="menudiv">
+			<table class="menu">
+				<tr>
+					<td><a href="inicio">Inicio</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularoxido">Óxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidruro">Hidruro</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidroxido">Hidróxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularacido">Ácido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalbinaria">Sal binaria</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsaloxial">Sal oxisal</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalacida">Sal ácida</a>&nbsp;|&nbsp;</td>
+					<td><a href="about">Acerca de</a></td>
+				</tr>
+			</table>
+        </div>
+
+        <h1>Tutorial en construcción</h1>
+        <h2>Sobre la página</h2>
+        <p>
+            Para formular, simplemente escribe el elemento en el campo de texto o su símbolo.
+            En los ácidos y sales oxiales, se debe escribir el símbolo en el no metal.
+        </p>
+
+        <h2>Hidruros</h2>
+        <p>
+            Los hidruros son los más fáciles de formular, para ello se debe pasar la valencia del elemento a la H.
+            Ejemplo: Hidruro de Magnesio, al tener valencia 2, MgH2.
+            Hay que tener en cuenta que si tiene una valencia fija, no se indica. Si no es fija, se escribe en números romanos.
+        </p>
+
+        <h2>Hidróxidos</h2>
+        <p>
+            Los hidróxidos también son fáciles de formular. Tiene el mismo concepto de hidruros, pero con OH.
+            Si la valencia no es uno, se debe escribir entre paréntesis.
+            Ejemplo: Hidróxido de Magnesio, Mg(OH)2
+        </p>
+
+        <h2>Óxidos</h2>
+        <p>
+            El oxígeno al tener valencia 2, se intercambia con el otro elemento. También se debe simplificar, como con las fracciones. 
+            Ejemplo: Óxido de Polonio (IV), Po2O4, se simplifica, quedando PoO2
+        </p>
+
+        <h2>Sales binarias</h2>
+        <p>
+            Son dos elementos, que el primero tiene por sufijo "-uro", y debe tener valencia fija.
+            Ejemplo: Sulfuro de Mercurio (I), Hg2S
+        </p>
+
+        <h2>Ácidos</h2>
+        <p>
+            Los ácidos se basan en formular un óxido y sumarlo a una molécula de agua. Se usa el siguiente esquema.
+        </p>
+        <table style="margin: auto;">
+        
+        <tr>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">Prefijo</td>
+            <td style="text-align: center;">Sufijo</td>
+            <td style="text-align: center;">Valencia 1</td>
+            <td style="text-align: center;">Valencia 2</td>
+            <td style="text-align: center;">Valencia 3</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">---&gt;</td>
+            <td style="text-align: center;">Hipo-</td>
+            <td style="text-align: center;">-oso</td>
+            <td style="text-align: center;">1</td>
+            <td style="text-align: center;">2</td>
+            <td style="text-align: center;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">---&gt;</td>
+            <td style="text-align: center;">---</td>
+            <td style="text-align: center;">-oso</td>
+            <td style="text-align: center;">3</td>
+            <td style="text-align: center;">4</td>
+            <td style="text-align: center;">2</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">---&gt;</td>
+            <td style="text-align: center;">---</td>
+            <td style="text-align: center;">-ico</td>
+            <td style="text-align: center;">5</td>
+            <td style="text-align: center;">6</td>
+            <td style="text-align: center;">4</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">---&gt;</td>
+            <td style="text-align: center;">Per-</td>
+            <td style="text-align: center;">-ico</td>
+            <td style="text-align: center;">7</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">--&gt;</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">F, Cl, Br, IN, P, As, Sb</td>
+            <td style="text-align: center;">O, S, Se, Te</td>
+            <td style="text-align: center;">C, Si</td>
+        </tr>
+        </table>
+        <p>
+            Hay una excepción, y es que si el elemento es Arsénico (As), Antimonio (Sb) o Fósforo (P), tienen un prefijo adicional, y dependiendo de ese prefijo, se multiplican las moléculas de agua.
+            Meta: 1
+            Piro: 2
+            (Orto): 3
+            Aviso: Si no tiene prefijo, el agua debe multiplicarse por tres, ya que lleva el prefijo "Orto" pero no se escribe.
+            El tercer prefijo no se pone, así que ácido antimonioso es lo mismo que ácido ortoantimonioso.
+            Ejemplo 1: Ácido PiroHipoAntimonioso
+            Se toma la valencia y se formula el óxido y simplifica: Sb2O. Al tener el prefijo Piro, el agua se multiplica por dos
+            Se simplifica si es posible.
+            Sb2O + 2(H2O): Sb2O + H4O2: H4Sb2O3
+            Ejemplo 2: Ácido Nítrico
+            N2O5 + H2O: H2N2O6 (simplificación) HNO3
+        </p>
+        <h2>Sales oxisales</h2>
+        <p>
+            Funcionan como los ácidos, solamente reemplazando el hidrógeno por otro elemento. El esquema cambia ligeramente
+        </p>
+        <table style="margin: auto;">
+        <tr>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">Prefijo</td>
+            <td style="text-align: center;">Sufijo</td>
+            <td style="text-align: center;">Valencia 1</td>
+            <td style="text-align: center;">Valencia 2</td>
+            <td style="text-align: center;">Valencia 3</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">---&gt;</td>
+            <td style="text-align: center;">Hipo-</td>
+            <td style="text-align: center;">-ito</td>
+            <td style="text-align: center;">1</td>
+            <td style="text-align: center;">2</td>
+            <td style="text-align: center;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">---&gt;</td>
+            <td style="text-align: center;">---</td>
+            <td style="text-align: center;">-ito</td>
+            <td style="text-align: center;">3</td>
+            <td style="text-align: center;">4</td>
+            <td style="text-align: center;">2</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">---&gt;</td>
+            <td style="text-align: center;">---</td>
+            <td style="text-align: center;">-ato</td>
+            <td style="text-align: center;">5</td>
+            <td style="text-align: center;">6</td>
+            <td style="text-align: center;">4</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">---&gt;</td>
+            <td style="text-align: center;">Per-</td>
+            <td style="text-align: center;">-ato</td>
+            <td style="text-align: center;">7</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">--&gt;</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;">F, Cl, Br, IN, P, As, Sb</td>
+            <td style="text-align: center;">O, S, Se, Te</td>
+            <td style="text-align: center;">C, Si</td>
+        </tr>
+        </table>
+        <p>
+            Ejemplo: Clorato de Mercurio (II)
+            Cl2O5 + H2O: H2Cl2O6 (Simplificación) HClO3
+            Se reemplaza el hidrógeno por el mercurio, y se pone su valencia entre el óxido.
+            Hg(ClO3)2
+            También, se puede simplificar la valencia del metal y del hidrógeno, y si es uno, no se ponen paréntesis. 
+        </p>
+        <h2>Sales ácidas</h2>
+        <p>
+            Se sustituye una H por un metal cuando se forma una sal oxisal. Se tiene que tener más de un hidrógeno.
+            Se sustituye una H y la otra se deja. Se nombra añadiendo "Bi" a la sal o añadiendo "ácido" después del primer compuesto 
+            H2CO3 Carbonato de sodio: Na(HCO3)1 Bicarbonato de sodio. 
+        </p>
+
+        <h1>Valencias</h1>
+        <p>
+            Si hay una única valencia no se escribe, en caso contrario, se escribe en números romanos.
+        </p>
+
+    </body>
+</html>

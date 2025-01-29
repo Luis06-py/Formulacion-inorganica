@@ -1,0 +1,438 @@
+{
+    "especial":{
+        "Amoniaco":"NH3",
+        "Fosfano": "PH3",
+        "Arsano": "AsH3",
+        "Estibinano": "SbH3",
+        "Metano":"CH4",
+        "Silano":"SiH4",
+        "Ácido clorhídrico":"HCl",
+        "Ácido permangánico":"HMnO4",
+        "Ácido dicrómico": "H2Cr2O7",
+        "Ácido crómico":"H2CrO4",
+        "Ácido persulfúrico":"H2S2O8",
+        "NH3": "Amoniaco"},
+    "especialS":{
+		"PH3": "Fosfano",
+		"AsH3": "Arsano",
+		"SbH3": "Estibinano",
+		"CH4": "Metano",
+		"SiH4": "Silano",
+		"NH3":"Amoniaco",
+		"NH4": "Amonio",
+		"HCl": "Ácido clorhídrico",
+		"HMnO4": "Ácido permangánico",
+		"H2Cr2O7": "Ácido dicrómico",
+		"H2CrO4": "Ácido crómico",
+		"H2S2O8": "Ácido persulfúrico"
+    },
+	"todos": ["H", "Li", "Na", "K", "Rb", "Cs", "Fr", "NH4", "Be", "Mg", "Ca", "Sr", "Ba", "Ra", "Zn", "Al", "Bi", "F", "Cl", "Br", "I", "O", "S", "Se", "Te", "N", "P", "As", "Sb", "C", "Si", "Cu", "Hg", "Au", "Tl", "Fe", "Co", "Ni", "Sm", "Eu", "Yb", "Pb", "Ge", "Sn", "Pt", "Po"],
+	
+	"valencias": {
+
+		"H": {"nombre": "Hidrógeno", "valencia": 1, "símbolo": "H"},
+		"Li": {"nombre": "Litio", "valencia": 1, "símbolo": "Li"},
+		"Na": {"nombre": "Sodio", "valencia": 1, "símbolo": "Na"},
+		"K": {"nombre": "Potasio", "valencia": 1, "símbolo": "K"},
+		"Rb": {"nombre": "Rubidio", "valencia": 1, "símbolo": "Rb"},
+		"Cs": {"nombre": "Cesio", "valencia": 1, "símbolo": "Cs"},
+		"Fr": {"nombre": "Francio", "valencia": 1, "símbolo": "Fr"},
+		"NH4": {"nombre": "Amonio", "valencia": 1, "símbolo": "NH4"},
+	
+		"Be": {"nombre": "Berilio", "valencia": 2, "símbolo": "Be"},
+		"Mg": {"nombre": "Magnesio", "valencia": 2, "símbolo": "Mg"},
+		"Ca": {"nombre": "Calcio", "valencia": 2, "símbolo": "Ca"},
+		"Sr": {"nombre": "Estroncio", "valencia": 2, "símbolo": "Sr"},
+		"Ba": {"nombre": "Bario", "valencia": 2, "símbolo": "Ba"},
+		"Ra": {"nombre": "Radio", "valencia": 2, "símbolo": "Ra"},
+		"Zn": {"nombre": "Zinc", "valencia": 2, "símbolo": "Zn"},
+	
+		"Al": {"nombre": "Aluminio", "valencia": 3, "símbolo": "Al"},
+		"Bi": {"nombre": "Bismuto", "valencia": 3, "símbolo": "Bi"},
+
+		"F": {"nombre": "Flúor", "valencia":1, "símbolo": "F"},
+		"Cl": {"nombre": "Cloro", "valencia":1, "símbolo": "Cl"},
+		"Br": {"nombre": "Bromo", "valencia":1, "símbolo": "Br"},
+		"I": {"nombre": "Yodo", "valencia":1, "símbolo": "I"},
+
+		"O": {"nombre": "Oxígeno", "valencia":2, "símbolo": "O"},
+		"S": {"nombre": "Azufre", "valencia":2, "símbolo": "S"},
+		"Se": {"nombre": "Selenio", "valencia":2, "símbolo": "Se"},
+		"Te": {"nombre": "Teluro", "valencia":2, "símbolo": "Te"},
+
+		"N": {"nombre": "Nitrógeno", "valencia":3, "símbolo": "N"},
+		"P": {"nombre": "Fósforo", "valencia":3, "símbolo": "P"},
+		"As": {"nombre": "Arsénico", "valencia":3, "símbolo": "As"},
+		"Sb": {"nombre": "Antimonio", "valencia":3, "símbolo": "Sb"},
+
+		"C": {"nombre": "Carbono", "valencia":4, "símbolo": "C"},
+		"Si": {"nombre": "Silicio", "valencia":4, "símbolo": "Si"},
+
+		
+		"Hidrógrno": {"nombre": "Hidrógeno", "valencia": 1, "símbolo": "H"},
+		"Litio": {"nombre": "Litio", "valencia": 1, "símbolo": "Li"},
+		"Sodio": {"nombre": "Sodio", "valencia": 1, "símbolo": "Na"},
+		"Potasio": {"nombre": "Potasio", "valencia": 1, "símbolo": "K"},
+		"Rubidio": {"nombre": "Rubidio", "valencia": 1, "símbolo": "Rb"},
+		"Cesio": {"nombre": "Cesio", "valencia": 1, "símbolo": "Cs"},
+		"Francio": {"nombre": "Francio", "valencia": 1, "símbolo": "Fr"},
+		"Amonio": {"nombre": "Amonio", "valencia": 1, "símbolo": "NH4"},
+	
+		"Berilio": {"nombre": "Berilio", "valencia": 2, "símbolo": "Be"},
+		"Magnesio": {"nombre": "Magnesio", "valencia": 2, "símbolo": "Mg"},
+		"Calcio": {"nombre": "Calcio", "valencia": 2, "símbolo": "Ca"},
+		"Estroncio": {"nombre": "Estroncio", "valencia": 2, "símbolo": "Sr"},
+		"Bario": {"nombre": "Bario", "valencia": 2, "símbolo": "Ba"},
+		"Radio": {"nombre": "Radio", "valencia": 2, "símbolo": "Ra"},
+		"Zinc": {"nombre": "Zinc", "valencia": 2, "símbolo": "Zn"},
+	
+		"Aluminio": {"nombre": "Aluminio", "valencia": 3, "símbolo": "Al"},
+		"Bismuto": {"nombre": "Bismuto", "valencia": 3, "símbolo": "Bi"},
+
+		"Flúor": {"nombre": "Flúor", "valencia":1, "símbolo": "F"},
+		"Cloro": {"nombre": "Cloro", "valencia":1, "símbolo": "Cl"},
+		"Bromo": {"nombre": "Bromo", "valencia":1, "símbolo": "Br"},
+		"Yodo": {"nombre": "Yodo", "valencia":1, "símbolo": "I"},
+
+		"Oxígeno": {"nombre": "Oxígeno", "valencia":2, "símbolo": "O"},
+		"Azufre": {"nombre": "Azufre", "valencia":2, "símbolo": "S"},
+		"Selenio": {"nombre": "Selenio", "valencia":2, "símbolo": "Se"},
+		"Teluro": {"nombre": "Teluro", "valencia":2, "símbolo": "Te"},
+
+		"Nitrógeno": {"nombre": "Nitrógeno", "valencia":3, "símbolo": "N"},
+		"Fósforo": {"nombre": "Fósforo", "valencia":3, "símbolo": "P"},
+		"Arsénico": {"nombre": "Arsénico", "valencia":3, "símbolo": "As"},
+		"Antimonio": {"nombre": "Antimonio", "valencia":3, "símbolo": "Sb"},
+
+		"Carbono": {"nombre": "Carbono", "valencia":4, "símbolo": "C"},
+		"Silicio": {"nombre": "Silicio", "valencia":4, "símbolo": "Si"}
+	}, 
+
+	"valencias2" : {
+		"Cu": {"nombre": "Cobre", "valencia": [1,2], "símbolo": "Cu"},
+		"Hg": {"nombre": "Mercurio", "valencia": [1,2], "símbolo": "Hg"},
+
+		"Au": {"nombre": "Oro", "valencia": [1,3], "símbolo": "Au"},
+		"Tl": {"nombre": "Talio", "valencia": [1,3], "símbolo": "Tl"},
+
+		"Fe": {"nombre": "Hierro", "valencia": [2,3], "símbolo": "Fe"},
+		"Co": {"nombre": "Cobalto", "valencia": [2,3], "símbolo": "Co"},
+		"Ni": {"nombre": "Niquel", "valencia": [2,3], "símbolo": "Ni"},
+		"Sm": {"nombre": "Samario", "valencia": [2,3], "símbolo": "Sm"},
+		"Eu": {"nombre": "Europio", "valencia": [2,3], "símbolo": "Eu"},
+		"Yb": {"nombre": "Yterbio", "valencia": [2,3], "símbolo": "Yb"},
+		
+		"Pb": {"nombre": "Plomo", "valencia": [2,4], "símbolo": "Pb"},
+		"Ge": {"nombre": "Germanio", "valencia": [2,4], "símbolo": "Ge"},
+		"Sn": {"nombre": "Estaño", "valencia": [2,4], "símbolo": "Sn"},
+		"Pt": {"nombre": "Platino", "valencia": [2,4], "símbolo": "Pt"},
+		"Po": {"nombre": "Polonio", "valencia": [2,4], "símbolo": "Po"},
+
+
+		"Cobre": {"nombre": "Cobre", "valencia": [1,2], "símbolo": "Cu"},
+		"Mercurio": {"nombre": "Mercurio", "valencia": [1,2], "símbolo": "Hg"},
+
+		"Oro": {"nombre": "Oro", "valencia": [1,3], "símbolo": "Au"},
+		"Talio": {"nombre": "Talio", "valencia": [1,3], "símbolo": "Tl"},
+
+		"Hietto": {"nombre": "Hierro", "valencia": [2,3], "símbolo": "Fe"},
+		"Cobalto": {"nombre": "Cobalto", "valencia": [2,3], "símbolo": "Co"},
+		"Níquel": {"nombre": "Níquel", "valencia": [2,3], "símbolo": "Ni"},
+		"Samario": {"nombre": "Samario", "valencia": [2,3], "símbolo": "Sm"},
+		"Europio": {"nombre": "Europio", "valencia": [2,3], "símbolo": "Eu"},
+		"Yterbio": {"nombre": "Yterbio", "valencia": [2,3], "símbolo": "Yb"},
+		
+		"Plomo": {"nombre": "Plomo", "valencia": [2,4], "símbolo": "Pb"},
+		"Germanio": {"nombre": "Germanio", "valencia": [2,4], "símbolo": "Ge"},
+		"Estaño": {"nombre": "Estaño", "valencia": [2,4], "símbolo": "Sn"},
+		"Platino": {"nombre": "Platino", "valencia": [2,4], "símbolo": "Pt"},
+		"Polonio": {"nombre": "Polonio", "valencia": [2,4], "símbolo": "Po"}
+		
+	},
+
+	"elementos": {
+		"H": "Hidrógeno",
+		"He": "Helio",
+		"Li": "Litio",
+		"Be": "Berilio",
+		"B": "Boro",
+		"C": "Carbono",
+		"N": "Nitrógeno",
+		"O": "Oxígeno",
+		"F": "Flúor",
+		"Ne": "Neón",
+		"Na": "Sodio",
+		"Mg": "Magnesio",
+		"Al": "Aluminio",
+		"Si": "Silicio",
+		"P": "Fósforo",
+		"S": "Azufre",
+		"Cl": "Cloro",
+		"Ar": "Argón",
+		"K": "Potasio",
+		"Ca": "Calcio",
+		"Sc": "Escandio",
+		"Ti": "Titanio",
+		"V": "Vanadio",
+		"Cr": "Cromo",
+		"Mn": "Manganeso",
+		"Fe": "Hierro",
+		"Co": "Cobalto",
+		"Ni": "Níquel",
+		"Cu": "Cobre",
+		"Zn": "Zinc",
+		"Ga": "Galio",
+		"Ge": "Germanio",
+		"As": "Arsénico",
+		"Se": "Selenio",
+		"Br": "Bromo",
+		"Kr": "Kriptón",
+		"Rb": "Rubidio",
+		"Sr": "Estroncio",
+		"Y": "Itrio",
+		"Zr": "Zirconio",
+		"Nb": "Niobio",
+		"Mo": "Molibdeno",
+		"Tc": "Tecnecio",
+		"Ru": "Rutenio",
+		"Rh": "Rodio",
+		"Pd": "Paladio",
+		"Ag": "Plata",
+		"Cd": "Cadmio",
+		"In": "Indio",
+		"Sn": "Estaño",
+		"Sb": "Antimonio",
+		"Te": "Telurio",
+		"I": "Yodo",
+		"Xe": "Xenón",
+		"Cs": "Cesio",
+		"Ba": "Bario",
+		"La": "Lantano",
+		"Ce": "Cerio",
+		"Pr": "Praseodimio",
+		"Nd": "Neodimio",
+		"Pm": "Prometio",
+		"Sm": "Samario",
+		"Eu": "Europio",
+		"Gd": "Gadolinio",
+		"Tb": "Terbio",
+		"Dy": "Disprosio",
+		"Ho": "Holmio",
+		"Er": "Erbio",
+		"Tm": "Tulio",
+		"Yb": "Iterbio",
+		"Lu": "Lutecio",
+		"Hf": "Hafnio",
+		"Ta": "Tantalio",
+		"W": "Wolframio",
+		"Re": "Renio",
+		"Os": "Osmio",
+		"Ir": "Iridio",
+		"Pt": "Platino",
+		"Au": "Oro",
+		"Hg": "Mercurio",
+		"Tl": "Talio",
+		"Pb": "Plomo",
+		"Bi": "Bismuto",
+		"Po": "Polonio",
+		"At": "Astato",
+		"Rn": "Radón",
+		"Fr": "Francio",
+		"Ra": "Radio",
+		"Ac": "Actinio",
+		"Th": "Torio",
+		"Pa": "Protactinio",
+		"U": "Uranio",
+		"Np": "Neptunio",
+		"Pu": "Plutonio",
+		"Am": "Americio",
+		"Cm": "Curio",
+		"Bk": "Berkelio",
+		"Cf": "Californio",
+		"Es": "Einstenio",
+		"Fm": "Fermio",
+		"Md": "Mendelevio",
+		"No": "Nobelio",
+		"Lr": "Lawrencio",
+		"Rf": "Rutherfordio",
+		"Db": "Dubnio",
+		"Sg": "Seaborgio",
+		"Bh": "Bohrio",
+		"Hs": "Hassio",
+		"Mt": "Meitnerio",
+		"Ds": "Darmstadtio",
+		"Rg": "Roentgenio",
+		"Cn": "Copernicio",
+		"Nh": "Nihonio",
+		"Fl": "Flerovio",
+		"Mc": "Moscovio",
+		"Lv": "Livermorio",
+		"Ts": "Teneso",
+		"Og": "Oganesón"
+	},
+
+	"abreviado": {
+		"Flúor": "fluor",
+		"Cloro": "clor",
+		"Bromo": "brom",
+		"Yodo": "yod",
+
+		"Oxígeno": "oxigen",
+		"Azufre": "sulfur",
+		"Selenio": "seleni",
+		"Teluro": "telur",
+		"Telurio": "telur",
+		
+		"Nitrógeno": "nitr",
+		"Fósforo": "fosf",
+		"Arsénico": "arseni",
+		"Antimonio": "antimoni",
+
+		"Carbono": "carbon",
+		"Silicio": "silic"
+	},
+
+	"listaAbrv":["Flúor", "Cloro", "Bromo", "Yodo", "Oxígeno", "Azufre", "Selenio", "Teluro", "Nitrógeno", "Fósforo", "Arsénico", "Antimonio", "Carbono", "Silicio" ],
+
+	"lista": ["F", "Cl", "Br", "I", "N", "P", "As", "Sb", "O", "S", "Se", "Te", "C", "Si"],
+	"especiales": ["P", "As", "Sb"],
+
+	"ácidos": {
+		"hipo-oso":{
+			"F":1,
+			"Cl":1,
+			"Br":1,
+			"I":1,
+
+			"N":1,
+			"P":1,
+			"As":1,
+			"Sb":1,
+
+
+			"O":2,
+			"S":2,
+			"Se":2,
+			"Te":2
+
+		},
+		"-oso":{
+			"F":3,
+			"Cl":3,
+			"Br":3,
+			"I":3,
+
+			"N":3,
+			"P":3,
+			"As":3,
+			"Sb":3,
+
+
+			"O":4,
+			"S":4,
+			"Se":4,
+			"Te":4
+		},
+		"-ico":{
+			"F":5,
+			"Cl":5,
+			"Br":5,
+			"I":5,
+
+			"N":5,
+			"P":5,
+			"As":5,
+			"Sb":5,
+
+			"O":6,
+			"S":6,
+			"Se":6,
+			"Te":6,
+			
+			"C":2,
+			"Si":2
+		},
+		"per-ico":{
+			"F":7,
+			"Cl":7,
+			"Br":7,
+			"I":7,
+
+			"N":7,
+			"P":7,
+			"As":7,
+			"Sb":7,
+
+			"C":4,
+			"Si":4
+		}
+	},
+	"sales": {
+		"hipo-ito":{
+			"F":1,
+			"Cl":1,
+			"Br":1,
+			"I":1,
+
+			"N":1,
+			"P":1,
+			"As":1,
+			"Sb":1,
+
+			"O":2,
+			"S":2,
+			"Se":2,
+			"Te":2
+
+		},
+		"-ito":{
+			"F":3,
+			"Cl":3,
+			"Br":3,
+			"I":3,
+
+			"N":3,
+			"P":3,
+			"As":3,
+			"Sb":3,
+
+			"O":4,
+			"S":4,
+			"Se":4,
+			"Te":4
+		},
+		"-ato":{
+			"F":5,
+			"Cl":5,
+			"Br":5,
+			"I":5,
+
+			"N":5,
+			"P":5,
+			"As":5,
+			"Sb":5,
+
+			"O":6,
+			"S":6,
+			"Se":6,
+			"Te":6,
+
+			"C":2,
+			"Si":2
+		},
+		"per-ato":{
+			"F":7,
+			"Cl":7,
+			"Br":7,
+			"I":7,
+
+			"N":7,
+			"P":7,
+			"As":7,
+			"Sb":7,
+
+			"C":4,
+			"Si":4
+		}
+	}
+}

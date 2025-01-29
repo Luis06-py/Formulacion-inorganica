@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sección de ayuda</title>
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+
+	</head>
+	<body>
+		<div class="menudiv">
+			<table class="menu">
+				<tr>
+					<td><a href="inicio">Inicio</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularoxido">Óxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidruro">Hidruro</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularhidroxido">Hidróxido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularacido">Ácido</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalbinaria">Sal binaria</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsaloxial">Sal oxisal</a>&nbsp;|&nbsp;</td>
+					<td><a href="formularsalacida">Sal ácida</a>&nbsp;|&nbsp;</td>
+					<td><a href="about">Acerca de</a></td>
+				</tr>
+			</table>
+		</div>
+
+		
+		<h1>Sección de ayuda</h1>
+		<h2>En esta página intentaré explicar todos los posibles errores</h2>
+		<h3>Error 405</h3>
+		<p>
+			Este error se da cuando intentas acceder a una página de forma incorrecta, normalmente a los resultados.
+			Por ejemplo haber ido a la página del final sin haber elegido los elementos.
+			De ocurrir, ve al inicio y recarga la página.
+		</p>
+
+		<h3>Errores por códigos</h3>
+		<p>
+			Hay codigos de errores que vienen explicados. Para solucionarlos se debe corregir el dato introducido.
+			Si es un error de nombre, prueba a escribir con símbolos (recomendado) o ir a la página de ese compuesto (óxido, sal, etc)
+		</p>
+
+		<h4>Error 1 constante</h4>
+		<p>
+			Si se obtiene el error 1 de forma constante, se recomienda escribir el símbolo o la primera letra del
+			elemento en mayúsculas. Cl sería mejor que "Cloro", que es mejor que "cloro".
+			Se recomienda formular desde las páginas en vez desde la de inicio ya que puede funcionar mal.
+		</p>
+
+		<h3>Errores en fórmulas especiales</h3>
+		<p>
+			Hay formulas especiales que no se consiguen formulando normal, tales como:
+			Ácido crómico (H2Cr2O7), Ácido persulfúrico (H2S2O8), Ácido clorhídrico (HCl)...
+			Si son introducidas en la opción de ácidos se devolverá un error. 
+			Para ello se deben formular en la página de inicio.
+		</p>
+
+	</body>
+</html>
